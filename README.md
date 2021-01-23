@@ -15,7 +15,7 @@ npm install
 ```
 ## Demo 
 
-![CRUD React](https://github.com/[hasnatammir2]/[wt2-fa20-project]/blob/[main]/project.jpg?raw=true)
+![CRUD React](https://github.com/hasnatamir2/wt2-fa20-project/main/public/project.jpg?raw=true)
 
 ## Contributor:
 * Hansat Amir   -   210752  -   [github/hasnatamir2](https://github.com/hasnatamir2)
