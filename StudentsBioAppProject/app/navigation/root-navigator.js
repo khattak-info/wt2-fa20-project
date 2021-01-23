@@ -3,29 +3,29 @@ import React from 'react';
 import { View } from "react-native";
 
 import { NavigationContainer } from "@react-navigation/native"
-import { createStackNavigator } from '@react-navigation/stack';
+import { createStackNavigator } from '@react-navigation/stack'; // importing from stack
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
-import AddStudentScreen from '../screens/AddStudentScreen'
+import AddStudentScreen from '../screens/AddStudentScreen'  
 import StudentDetailScreen from '../screens/StudentDetailScreen'
 import StudentListScreen from '../screens/StudentListScreen'
 
-const AppStack = createStackNavigator();
+const AppStack = createStackNavigator();  //creating object
 const AppStackScreens = () => {
-    return (
+    return (                            
         <View style={{ flex: 1 }}>
             <AppStack.Navigator initialRouteName='StudentListScreen' >
                 <AppStack.Screen
-                    name="StudentListScreen"
+                    name="StudentListScreen"    //it will display student names 
                     component={StudentListScreen}
                     options={{title:'Students List'}}
                 />
-                <AppStack.Screen
+                <AppStack.Screen        // to display details
                     name="StudentDetailScreen"
                     component={StudentDetailScreen}
                     options={{title:'Student Details'}}
                 />
-                <AppStack.Screen
+                <AppStack.Screen        
                     name="AddStudentScreen"
                     component={AddStudentScreen}
                     options={({ route }) => ({ title: route.params.headerTitle })}
