@@ -185,6 +185,7 @@ const styles = StyleSheet.create({
         paddingVertical: 12,
         marginTop: 12,
     },
+
     addBtnText: {
         color: '#fff',
         fontSize: 16,
