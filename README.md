@@ -11,3 +11,7 @@
 1. Clicking on a record opens the single user record with a small bio along with the above mentioned details.
 1. Update the README.md with the student names and CMS_ID listed at the end.
 1. Upload you group assignment as a git push.
+
+Contributors: Muhammad Tayyab
+              Ahmad Hassan 
+              Shaheer Abdul Dayan
