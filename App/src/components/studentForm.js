@@ -149,7 +149,7 @@ export default function StudentForm(){
                 onChange={handleChange}
             />
             <Button variant="contained" color="primary" size="small" onClick={()=>id != null ? editStudent() : addStudent()}>
-                Update
+                {id != null ? "Update" : "Add"}
             </Button>
         </Paper>
     )
