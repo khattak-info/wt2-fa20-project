@@ -1,0 +1,5 @@
+# Ignore these folders:
+*.github
+*test
+*app/.cache
+*app/public
