@@ -28,18 +28,27 @@ const Header = () => (
 		<div
 			style={{
 				margin: `0 auto`,
-				maxWidth: 960,
+				maxWidth: "90%",
 				padding: `1.45rem 1.0875rem`,
+				display:"flex",
+				justifyContent: "space-between",
+				alignItems:"center"
 			}}
 		>
-			<h1 style={{ margin: 0 }}>
+			<h1 style={{ margin: 0,"width":"300px" }}>
 				<Link
 					to="/"
 					style={styles.link}
 				>
-					<img src={icon} style={styles.iconStyle} /> WT2-Project
-        </Link>
+					<img src={icon} style={styles.iconStyle} alt="logo"/> WT2-Project
+        		</Link>
 			</h1>
+			<Link
+				to="/"
+				style={styles.link}
+			>
+				Home
+			</Link>
 		</div>
 	</header>
 )

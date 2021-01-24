@@ -5,12 +5,13 @@ const typeDefs = gql`
 
   type Query{
     greetings:String,
-    getStudents:[JSON]
+    getStudents:[JSON],
+    getStudent(id:String):JSON,
   }
   type Mutation{
-    addStudent(dataObj:JSON):[JSON]
+    addStudent(dataObj:JSON):JSON
     editStudent(dataObj:JSON):JSON
-    deleteStudents(ids:[String]):[JSON]
+    deleteStudents(dataObj:[String]):[JSON]
   }
 `
 
