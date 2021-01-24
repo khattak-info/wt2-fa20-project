@@ -3,13 +3,12 @@ const cors = require("cors")
 const { ApolloServer } = require("apollo-server-express")
 const typeDefs = require("./graphql/typeDefs")
 const resolvers = require("./graphql/resolvers")
-
 const port = process.env.PORT || 3000
 
 const server = new ApolloServer({
     typeDefs,
     resolvers,
-    context: ({ req, res }) => { req, res }
+    context: ({ req, res }) => { req, res}
 })
 
 const app = express()

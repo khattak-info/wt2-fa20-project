@@ -1,13 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useQuery } from "@apollo/react-hooks"
-import { GET_GREETINGS } from "./siteQueries"
+import { GET_STUDENTS } from "./siteQueries"
 import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
 
-	const { data, error, loading, refetch } = useQuery(GET_GREETINGS, {
+	const { data, error, loading, refetch } = useQuery(GET_STUDENTS, {
 		onCompleted: (d) => console.log(d)
 	})
 

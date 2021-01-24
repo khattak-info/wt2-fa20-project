@@ -1,7 +1,7 @@
 import { gql } from "apollo-boost"
 
-export const GET_GREETINGS = gql`
+export const GET_STUDENTS = gql`
     query {
-        greetings
+        getStudents
     }
 `
