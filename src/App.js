@@ -6,9 +6,9 @@ import UserTable from './tables/UserTable'
 const App = () => {
 	// Data
 	const usersData = [
-		{ id: 1, name: 'Essam Asif', CMS: '199379', email: 'easif.bscs16seecs@seecs.edu.pk' },
-		{ id: 2, name: 'Hasnat Amir', CMS: '210752', email: 'hamir.bscs17seecs@seecs.edu.pk' },
-		{ id: 3, name: 'Ibtisam Arif', CMS: '218940', email: 'ibtisam.arif@gmail.com' },
+		{ id: 1, name: 'Muhammad Tayyab', CMS: '217038', email: 'mtayyab.bscs17seecs@seecs.edu.pk' },
+		{ id: 2, name: 'Ahmad Hassan', CMS: '208703', email: 'ahassan.bscs17seecs@seecs.edu.pk' },
+		{ id: 3, name: 'Shaheer', CMS: '211440', email: 'sdayan.bscs17seecs@seecs.edu.pk' },
 	]
 
 	const initialFormState = { id: null, name: '', CMS: '', email: '' }
