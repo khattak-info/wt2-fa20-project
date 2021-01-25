@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const AddUserForm = props => {
-	const initialFormState = { id: null, name: '', username: '' }
+	const initialFormState = { id: null, name: '', CMS: '', email: '' }
 	const [ user, setUser ] = useState(initialFormState)
 
 	const handleInputChange = event => {
@@ -14,7 +14,7 @@ const AddUserForm = props => {
 		<form
 			onSubmit={event => {
 				event.preventDefault()
-				if (!user.name || !user.username) return
+				if (!user.name || !user.CMS || !user.email) return
 
 				props.addUser(user)
 				setUser(initialFormState)
