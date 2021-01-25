@@ -15,7 +15,7 @@ npm install
 ```
 ## Demo 
 
-![CRUD React](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![CRUD React](public/project.PNG)
 
 ## Contributor:
 * Hansat Amir   -   210752  -   [github/hasnatamir2](https://github.com/hasnatamir2)
