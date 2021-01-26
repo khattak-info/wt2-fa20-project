@@ -1,0 +1,35 @@
+  
+   [ 
+    {
+        "id":1,
+        "cms": 211686,
+        "name": "Shifa Shariq" ,
+        "gname": "Team ThunderStrike",
+        "bio": "Har Khabar par Nazar",
+        "url" :"https://github.com/ShifaShariq",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D03AQHtfX_vyVIMqg/profile-displayphoto-shrink_200_200/0/1594224403291?e=1614816000&v=beta&t=8X4b0o1UWKElIJk-2BY2Uw-JcUdXpD36ca_xcBrIH50"
+    },
+    {
+        "id":2,
+        "cms": 208550,
+        "name": "Tehreem Farooqi" ,
+        "gname": "Team ThunderStrike",
+        "bio": "Not a bookworm anymore",
+        "url" :"https://github.com/TehreemFarooqi",
+        "image": "https://avatars3.githubusercontent.com/u/40829272?s=460&u=9faebc4a8f539a2803d22caee5810c3ba9f4f581&v=4"
+        
+
+    },
+    {
+        "id":3,
+        "cms":232903,
+        "name": "Sana Jamil" ,
+        "gname": "Team ThunderStrike",
+        "bio": "Boss Lady",
+        "url" :"https://github.com/sanajamil1",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D03AQGDh3p64EarrA/profile-displayphoto-shrink_200_200/0/1599220659913?e=1616025600&v=beta&t=B1WuOH1vvF1GfWK5UwrRW2182eKPfkOPWBysGZvTKVk"
+    }
+
+
+]
+

@@ -1,0 +1,48 @@
+.btn-primary{
+  border: none;
+  border-radius: 1px;
+  background: rgb(230,110,171);
+  background: linear-gradient(90deg, rgba(230,110,171,0.9808298319327731) 20%, rgba(198,98,226,1) 80%);
+}
+h1{
+  align-self: center !important;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px ;
+}
+
+a:hover {
+text-decoration: none;
+}
+link{
+  align-self: center !important;
+}
+link:hover{
+background: rgb(150, 79, 114)  !important; 
+}
+.card{
+  border: none !important;
+  border-radius: 1px !important;
+}
+.card-body {
+  padding: 1.60rem !important;
+}
+.card-title {
+  margin-bottom: 1.4rem !important;
+  align-self: right;
+}
+.card-text{
+  align-self: right;
+}
+p {
+  margin-top: 4px !important;
+  margin-bottom: 1.5rem !important;
+}
+img{ 
+  align-self: center !important;
+  border: 40 px;
+  width: 200px;
+  height: 200px;
+}
